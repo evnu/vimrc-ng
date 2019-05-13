@@ -14,5 +14,6 @@ nnoremap <leader>st :Gstatus<CR>
 """ {{{ Style
 set shiftwidth=4
 set relativenumber
+set wildmenu
 colorscheme molokai
 """ }}}
