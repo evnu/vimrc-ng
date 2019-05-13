@@ -16,5 +16,3 @@ set shiftwidth=4
 set relativenumber
 colorscheme molokai
 """ }}}
-
-" vim: foldmethod=marker
