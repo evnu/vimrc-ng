@@ -9,6 +9,9 @@ set nocompatible
 " Source current vimrc
 nnoremap <leader>sv :source $MYVIMRC<CR>
 
+" Trigger dirvish
+nnoremap <F3> :Dirvish<CR>
+
 """ }}}
 
 """ {{{ Style
