@@ -2,6 +2,10 @@
 
 My next generation vimrc.
 
+## Requirements
+
+* `fzf`
+
 ## Installation
 
 First, initialize the submodules:
