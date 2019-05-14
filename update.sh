@@ -5,9 +5,6 @@
 
 git submodule init
 
-for bundle in bundle/*; do
-    if [ -d "$bundle" ]; then
-	echo "Updating $bundle"
-	( cd $bundle; git submodule update)
-    fi
-done
+git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
+    cut -f 2 -d ' ' |
+    xargs git submodule update
