@@ -16,3 +16,6 @@
 [submodule "bundle/rust"]
 	path = bundle/rust
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule "bundle/vim-qlist"]
+	path = bundle/vim-qlist
+	url = https://github.com/romainl/vim-qlist.git
