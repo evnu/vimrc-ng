@@ -10,6 +10,10 @@ nnoremap <leader>sv :source $MYVIMRC<CR>
 nnoremap <leader>d :Dirvish<CR>
 nnoremap <leader>u :UndotreeToggle<CR>
 nnoremap <leader>st :Gstatus<CR>
+nnoremap <leader>ff :FZF<CR>
+nnoremap <leader>fg :GFiles<CR>
+nnoremap <leader>fs :GFiles?<CR>
+nnoremap <leader>fb :Buffers<CR>
 """ }}}
 
 """ {{{ Style
