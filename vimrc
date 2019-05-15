@@ -24,6 +24,9 @@ set shiftwidth=4
 set relativenumber
 set wildmenu
 colorscheme molokai
+set listchars=tab:>.,trail:.,extends:#,nbsp:.
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
 """ }}}
 
 """ {{{ augroups
