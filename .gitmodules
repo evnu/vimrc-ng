@@ -25,3 +25,6 @@
 [submodule "bundle/fzf.vim"]
 	path = bundle/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
+[submodule "bundle/vim-mix-format"]
+	path = bundle/vim-mix-format
+	url = https://github.com/mhinz/vim-mix-format.git
