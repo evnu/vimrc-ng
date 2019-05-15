@@ -28,3 +28,6 @@
 [submodule "bundle/vim-mix-format"]
 	path = bundle/vim-mix-format
 	url = https://github.com/mhinz/vim-mix-format.git
+[submodule "bundle/vim-ags"]
+	path = bundle/vim-ags
+	url = https://github.com/gabesoft/vim-ags.git
