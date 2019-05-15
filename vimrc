@@ -6,7 +6,7 @@ syntax on
 set nocompatible
 set noswapfile
 set undofile
-set undodir=~/.vim/undodir
+set undodir=~/.vim_undodir
 
 """ {{{ Mappings
 nnoremap <leader>sv :source $MYVIMRC<CR>
