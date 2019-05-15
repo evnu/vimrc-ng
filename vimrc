@@ -22,3 +22,11 @@ set relativenumber
 set wildmenu
 colorscheme molokai
 """ }}}
+
+""" {{{ augroups
+augroup rust
+    au!
+
+    au BufWrite *.rs RustFmt
+augroup END
+"""}}}
