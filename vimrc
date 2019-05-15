@@ -21,6 +21,7 @@ nnoremap <leader>fb :Buffers<CR>
 
 """ {{{ Style
 set shiftwidth=4
+set number
 set relativenumber
 set wildmenu
 colorscheme molokai
