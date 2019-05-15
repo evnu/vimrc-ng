@@ -4,6 +4,9 @@ execute pathogen#infect()
 filetype plugin indent on
 syntax on
 set nocompatible
+set noswapfile
+set undofile
+set undodir=~/.vim/undodir
 
 """ {{{ Mappings
 nnoremap <leader>sv :source $MYVIMRC<CR>
