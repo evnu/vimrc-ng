@@ -18,6 +18,7 @@ nnoremap <leader>fg :GFiles<CR>
 nnoremap <leader>fs :GFiles?<CR>
 nnoremap <leader>fb :Buffers<CR>
 nnoremap <esc><esc> :<c-u>nohlsearch<cr>
+nnoremap <leader>dts :%s/\s\+$//g<cr>
 """ }}}
 
 """ {{{ Style
