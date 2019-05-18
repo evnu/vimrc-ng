@@ -9,14 +9,14 @@ set undofile
 set undodir=~/.vim_undodir
 
 """ {{{ Mappings
-nnoremap <leader>sv :source $MYVIMRC<CR>
-nnoremap <leader>d :Dirvish<CR>
-nnoremap <leader>u :UndotreeToggle<CR>
-nnoremap <leader>st :Gstatus<CR>
-nnoremap <leader>ff :FZF<CR>
-nnoremap <leader>fg :GFiles<CR>
-nnoremap <leader>fs :GFiles?<CR>
-nnoremap <leader>fb :Buffers<CR>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>d :Dirvish<cr>
+nnoremap <leader>u :UndotreeToggle<cr>
+nnoremap <leader>st :Gstatus<cr>
+nnoremap <leader>ff :FZF<cr>
+nnoremap <leader>fg :GFiles<cr>
+nnoremap <leader>fs :GFiles?<cr>
+nnoremap <leader>fb :Buffers<cr>
 nnoremap <esc><esc> :<c-u>nohlsearch<cr>
 nnoremap <leader>dts :%s/\s\+$//g<cr>
 """ }}}
