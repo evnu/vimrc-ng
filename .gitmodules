@@ -31,3 +31,6 @@
 [submodule "bundle/vim-ags"]
 	path = bundle/vim-ags
 	url = https://github.com/gabesoft/vim-ags.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
