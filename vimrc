@@ -38,6 +38,12 @@ augroup rust
 
     au BufWrite *.rs RustFmt
 augroup END
+
+augroup elixir
+    au!
+
+    au BufEnter *.ex set sw=2
+augroup END
 """}}}
 
 """ {{{ vim-markdown
