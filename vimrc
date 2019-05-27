@@ -10,7 +10,7 @@ set undodir=~/.vim_undodir
 
 """ {{{ Mappings
 nnoremap <leader>sv :source $MYVIMRC<cr>
-nnoremap <leader>d :Dirvish<cr>
+nnoremap <leader>D :Dirvish<cr>
 nnoremap <leader>u :UndotreeToggle<cr>
 nnoremap <leader>st :Gstatus<cr>
 nnoremap <leader>ff :FZF<cr>
