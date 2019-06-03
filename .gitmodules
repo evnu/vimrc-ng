@@ -28,9 +28,6 @@
 [submodule "bundle/vim-mix-format"]
 	path = bundle/vim-mix-format
 	url = https://github.com/mhinz/vim-mix-format.git
-[submodule "bundle/vim-ags"]
-	path = bundle/vim-ags
-	url = https://github.com/gabesoft/vim-ags.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
@@ -40,3 +37,6 @@
 [submodule "bundle/DrawIt"]
 	path = bundle/DrawIt
 	url = https://github.com/vim-scripts/DrawIt.git
+[submodule "bundle/vim-lion"]
+	path = bundle/vim-lion
+	url = https://github.com/tommcdo/vim-lion
