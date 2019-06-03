@@ -4,7 +4,7 @@ My next generation vimrc.
 
 ## Requirements
 
-* `ag` (silver searcher)
+* `rg` (ripgrep)
 * `fzf`
 
 ## Installation

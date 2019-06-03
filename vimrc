@@ -8,6 +8,10 @@ set noswapfile
 set undofile
 set undodir=~/.vim_undodir
 
+set grepprg=rg\ --vimgrep\ --smart-case
+
+packadd cfilter
+
 """ {{{ Mappings
 nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>D :Dirvish<cr>
@@ -19,6 +23,7 @@ nnoremap <leader>fs :GFiles?<cr>
 nnoremap <leader>fb :Buffers<cr>
 nnoremap <esc><esc> :<c-u>nohlsearch<cr>
 nnoremap <leader>dts :%s/\s\+$//g<cr>
+nnoremap <leader>rg :silent grep <cword> \| copen<cr>
 """ }}}
 
 """ {{{ Style
