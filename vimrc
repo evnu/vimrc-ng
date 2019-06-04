@@ -24,6 +24,7 @@ nnoremap <leader>fb :Buffers<cr>
 nnoremap <esc><esc> :<c-u>nohlsearch<cr>
 nnoremap <leader>dts :%s/\s\+$//g<cr>
 nnoremap <leader>rg :silent grep <cword> \| copen<cr>
+nnoremap <leader>a :ArgWrap<cr>
 """ }}}
 
 """ {{{ Style
