@@ -33,3 +33,8 @@ $ ln -s $PWD/ ~/.config/nvim
 ```
 $ ./update.sh
 ```
+
+## Plugin Handling
+
+Plugins are added as submodules to `pack/evnu/start/`. No extra plugin manager
+is used. This requires Vim 8.  See `:h packages` for more information.

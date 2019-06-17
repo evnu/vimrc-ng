@@ -1,42 +1,39 @@
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
-	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/molokai"]
-	path = bundle/molokai
+	path = pack/evnu/start/molokai
 	url = https://github.com/tomasr/molokai.git
 [submodule "bundle/vim-dirvish"]
-	path = bundle/vim-dirvish
+	path = pack/evnu/start/vim-dirvish
 	url = https://github.com/justinmk/vim-dirvish.git
 [submodule "bundle/undotree"]
-	path = bundle/undotree
+	path = pack/evnu/start/undotree
 	url = https://github.com/mbbill/undotree.git
 [submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
+	path = pack/evnu/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/rust"]
-	path = bundle/rust
+	path = pack/evnu/start/rust
 	url = https://github.com/rust-lang/rust.vim.git
 [submodule "bundle/vim-qlist"]
-	path = bundle/vim-qlist
+	path = pack/evnu/start/vim-qlist
 	url = https://github.com/romainl/vim-qlist.git
 [submodule "bundle/vim-elixir"]
-	path = bundle/vim-elixir
+	path = pack/evnu/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir.git
 [submodule "bundle/fzf.vim"]
-	path = bundle/fzf.vim
+	path = pack/evnu/start/fzf.vim
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "bundle/vim-mix-format"]
-	path = bundle/vim-mix-format
+	path = pack/evnu/start/vim-mix-format
 	url = https://github.com/mhinz/vim-mix-format.git
 [submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
+	path = pack/evnu/start/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/DrawIt"]
-	path = bundle/DrawIt
+	path = pack/evnu/start/DrawIt
 	url = https://github.com/vim-scripts/DrawIt.git
 [submodule "bundle/vim-lion"]
-	path = bundle/vim-lion
+	path = pack/evnu/start/vim-lion
 	url = https://github.com/tommcdo/vim-lion
 [submodule "bundle/vim-argwrap"]
-	path = bundle/vim-argwrap
+	path = pack/evnu/start/vim-argwrap
 	url = https://github.com/FooSoft/vim-argwrap/

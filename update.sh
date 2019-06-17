@@ -11,9 +11,8 @@ git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
     cut -f 2 -d ' ' |
     xargs git submodule update
 
-# requires pathogen
-vim +Helptags +qall
+vim +helptags ALL +qall
 
 if which nvim &> /dev/null; then
-    nvim +Helptags +qall
+    nvim +helptags ALL +qall
 fi

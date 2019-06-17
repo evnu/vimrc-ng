@@ -1,5 +1,8 @@
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+" Plugins are added with :packadd, so we require a recent version of Vim
+if v:version < 800 && !has('nvim-0.3.7')
+    echoerr "Configuration requires at least Vim 8 or Neovim 0.3.7"
+    finish
+endif
 
 filetype plugin indent on
 syntax on
