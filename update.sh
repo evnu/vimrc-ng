@@ -5,8 +5,6 @@
 
 git submodule init
 
-mkdir -p bundle
-
 git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
     cut -f 2 -d ' ' |
     xargs git submodule update
