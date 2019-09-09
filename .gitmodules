@@ -40,3 +40,6 @@
 [submodule "pack/evnu/start/vim-matchup"]
 	path = pack/evnu/start/vim-matchup
 	url = https://github.com/andymass/vim-matchup
+[submodule "pack/evnu/start/linediff.vim"]
+	path = pack/evnu/start/linediff.vim
+	url = https://github.com/AndrewRadev/linediff.vim
