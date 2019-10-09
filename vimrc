@@ -41,6 +41,11 @@ highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 """ }}}
 
+""" {{{ matchup
+" Highlighting matching parenthesis does not work well for me
+let g:matchup_matchparen_enabled = 0
+""" }}}
+
 """ {{{ augroups
 augroup rust
     au!
