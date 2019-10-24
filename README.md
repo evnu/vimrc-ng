@@ -7,6 +7,14 @@ My next generation vimrc.
 * `rg` (ripgrep)
 * `fzf`
 
+## LanguageClient-neovim
+* rust
+* make
+
+## rust-analyzer
+* rust
+* `cargo xtask` (cargo +nightly xtask install --server)
+
 ## Installation
 
 First, initialize the submodules:

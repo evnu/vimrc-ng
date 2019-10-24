@@ -63,3 +63,22 @@ augroup END
 """ {{{ vim-markdown
 let g:vim_markdown_folding_disabled = 1
 """ }}}
+
+""" {{{ LanguageClient-neovim
+let g:LanguageClient_changeThrottle = 0.5
+let g:LanguageClient_useFloatingHover = 1
+
+let g:LanguageClient_serverCommands = {
+\ 'rust': ['ra_lsp_server'],
+\ }
+
+augroup rust
+    au!
+
+    nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
+    nnoremap K :call LanguageClient#textDocument_hover()<CR>
+    nnoremap <leader>li :call LanguageClient#textDocument_implementation()<CR>
+    nnoremap <leader>lca :call LanguageClient#textDocument_codeAction()<CR>
+    nnoremap <buffer> <silent> gd :call LanguageClient#textDocument_definition()<CR>
+augroup END
+""" }}}

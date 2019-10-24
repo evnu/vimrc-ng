@@ -43,3 +43,9 @@
 [submodule "pack/evnu/start/linediff.vim"]
 	path = pack/evnu/start/linediff.vim
 	url = https://github.com/AndrewRadev/linediff.vim
+[submodule "pack/evnu/start/LanguageClient-neovim"]
+	path = pack/evnu/start/LanguageClient-neovim
+	url = https://github.com/autozimu/LanguageClient-neovim
+[submodule "vendor/rust-analyzer"]
+	path = vendor/rust-analyzer
+	url = https://github.com/rust-analyzer/rust-analyzer.git
