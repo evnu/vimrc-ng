@@ -7,6 +7,7 @@ My next generation vimrc.
 * `rg` (ripgrep)
 * `fzf`
 * [`alt`](https://github.com/uptech/alt)
+* `ctags`
 
 ## LanguageClient-neovim
 * rust

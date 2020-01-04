@@ -28,6 +28,7 @@ nnoremap <esc><esc> :<c-u>nohlsearch<cr>
 nnoremap <leader>dts :%s/\s\+$//g<cr>
 nnoremap <leader>rg :silent grep <cword> \| copen<cr>
 nnoremap <leader>a :ArgWrap<cr>
+nnoremap <leader>tb :TagbarToggle<cr>
 """ }}}
 
 """ {{{ Style
