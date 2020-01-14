@@ -93,3 +93,10 @@ endfunction
 " Find the alternate file for the current path and open it
 nnoremap <leader>alt :w<cr>:call AltCommand(expand('%'), ':e')<cr>
 """ }}}
+
+""" {{{ Define colors for highlighting matching braces
+
+" Avoid that it looks like the cursor jumped due to bad highlighting.
+" See https://stackoverflow.com/a/50087070/436853
+hi MatchParen ctermfg=208 ctermbg=bg
+""" }}}
