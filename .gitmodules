@@ -52,3 +52,6 @@
 [submodule "pack/evnu/start/tagbar"]
 	path = pack/evnu/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/evnu/start/vim-racket"]
+	path = pack/evnu/start/vim-racket
+	url = https://github.com/wlangstroth/vim-racket.git
