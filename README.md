@@ -17,6 +17,10 @@ My next generation vimrc.
 * rust
 * `rust-analyzer` ([AUR](https://aur.archlinux.org/packages/rust-analyzer-bin))
 
+## C/C++
+
+* `clangd` for LanguageClient-neovim
+
 ## Installation
 
 First, initialize the submodules:

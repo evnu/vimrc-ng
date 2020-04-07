@@ -66,9 +66,11 @@ let g:LanguageClient_useFloatingHover = 1
 
 let g:LanguageClient_serverCommands = {
 \ 'rust': ['rust-analyzer'],
+\ 'c': ['clangd'],
+\ 'cpp': ['clangd'],
 \ }
 
-augroup rust
+augroup ls
     au!
 
     nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
