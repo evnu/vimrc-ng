@@ -46,9 +46,6 @@
 [submodule "pack/evnu/start/LanguageClient-neovim"]
 	path = pack/evnu/start/LanguageClient-neovim
 	url = https://github.com/autozimu/LanguageClient-neovim
-[submodule "vendor/rust-analyzer"]
-	path = vendor/rust-analyzer
-	url = https://github.com/rust-analyzer/rust-analyzer.git
 [submodule "pack/evnu/start/tagbar"]
 	path = pack/evnu/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git

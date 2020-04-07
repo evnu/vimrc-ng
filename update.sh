@@ -12,11 +12,6 @@ git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
 # LanguageClient-neovim requires some more work
 if which cargo &> /dev/null; then
     (
-    echo "Building rust-analyzer"
-    cd vendor/rust-analyzer/
-    cargo xtask install --server
-    )
-    (
     echo "Building LanguageClient-neovim"
     cd pack/evnu/start/LanguageClient-neovim/
     make release

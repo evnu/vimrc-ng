@@ -15,7 +15,7 @@ My next generation vimrc.
 
 ## rust-analyzer
 * rust
-* `cargo xtask` (cargo +nightly xtask install --server)
+* `rust-analyzer` ([AUR](https://aur.archlinux.org/packages/rust-analyzer-bin))
 
 ## Installation
 

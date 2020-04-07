@@ -65,7 +65,7 @@ let g:LanguageClient_changeThrottle = 0.5
 let g:LanguageClient_useFloatingHover = 1
 
 let g:LanguageClient_serverCommands = {
-\ 'rust': ['ra_lsp_server'],
+\ 'rust': ['rust-analyzer'],
 \ }
 
 augroup rust
