@@ -73,21 +73,6 @@ let g:LanguageClient_serverCommands = {
 nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
 """ }}}
 
-""" {{{ alt
-" See https://github.com/uptech/alt
-function! AltCommand(path, vim_command)
-  let l:alternate = system("alt " . a:path)
-  if empty(l:alternate)
-    echo "No alternate file for " . a:path . " exists!"
-  else
-    exec a:vim_command . " " . l:alternate
-  endif
-endfunction
-
-" Find the alternate file for the current path and open it
-nnoremap <leader>alt :w<cr>:call AltCommand(expand('%'), ':e')<cr>
-""" }}}
-
 """ {{{ Define colors for highlighting matching braces
 
 " Avoid that it looks like the cursor jumped due to bad highlighting.
