@@ -70,15 +70,7 @@ let g:LanguageClient_serverCommands = {
 \ 'cpp': ['clangd'],
 \ }
 
-augroup ls
-    au!
-
-    nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
-    nnoremap K :call LanguageClient#textDocument_hover()<CR>
-    nnoremap <leader>li :call LanguageClient#textDocument_implementation()<CR>
-    nnoremap <leader>lca :call LanguageClient#textDocument_codeAction()<CR>
-    nnoremap <buffer> <silent> gd :call LanguageClient#textDocument_definition()<CR>
-augroup END
+nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
 """ }}}
 
 """ {{{ alt
