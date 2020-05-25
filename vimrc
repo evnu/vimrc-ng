@@ -46,6 +46,12 @@ match ExtraWhitespace /\s\+$/
 """ }}}
 
 """ {{{ augroups
+augroup rust
+    au!
+
+    au BufWrite *.rs RustFmt
+augroup END
+
 augroup elixir
     au!
 
@@ -105,8 +111,4 @@ let g:tagbar_type_elixir = {
     \ },
     \ 'sort' : 0
 \ }
-""" }}}
-
-""" {{{
-let g:rustfmt_autosave = 0
 """ }}}
