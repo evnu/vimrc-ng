@@ -13,9 +13,6 @@
 [submodule "bundle/rust"]
 	path = pack/evnu/start/rust
 	url = https://github.com/rust-lang/rust.vim.git
-[submodule "bundle/vim-qlist"]
-	path = pack/evnu/start/vim-qlist
-	url = https://github.com/romainl/vim-qlist.git
 [submodule "bundle/vim-elixir"]
 	path = pack/evnu/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir.git
@@ -31,9 +28,6 @@
 [submodule "bundle/DrawIt"]
 	path = pack/evnu/start/DrawIt
 	url = https://github.com/vim-scripts/DrawIt.git
-[submodule "bundle/vim-lion"]
-	path = pack/evnu/start/vim-lion
-	url = https://github.com/tommcdo/vim-lion
 [submodule "bundle/vim-argwrap"]
 	path = pack/evnu/start/vim-argwrap
 	url = https://github.com/FooSoft/vim-argwrap/
@@ -49,6 +43,3 @@
 [submodule "pack/evnu/start/tagbar"]
 	path = pack/evnu/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
-[submodule "pack/evnu/start/vim-racket"]
-	path = pack/evnu/start/vim-racket
-	url = https://github.com/wlangstroth/vim-racket.git
