@@ -112,3 +112,8 @@ let g:tagbar_type_elixir = {
     \ 'sort' : 0
 \ }
 """ }}}
+
+""" {{{ LanguageClient-neovim
+" Disable those awful diagnostic texts
+let g:LanguageClient_useVirtualText = 0
+""" }}}
