@@ -43,3 +43,6 @@
 [submodule "pack/evnu/start/tagbar"]
 	path = pack/evnu/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "pack/evnu/start/zig.vim"]
+	path = pack/evnu/start/zig.vim
+	url = https://github.com/ziglang/zig.vim
