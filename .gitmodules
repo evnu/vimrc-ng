@@ -49,3 +49,6 @@
 [submodule "pack/evnu/start/vim-arduino-syntax"]
 	path = pack/evnu/start/vim-arduino-syntax
 	url = https://github.com/sudar/vim-arduino-syntax.git
+[submodule "pack/evnu/start/vim-slime"]
+	path = pack/evnu/start/vim-slime
+	url = https://github.com/jpalardy/vim-slime
