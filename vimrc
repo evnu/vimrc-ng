@@ -43,6 +43,7 @@ colorscheme molokai
 set listchars=tab:>.,trail:.,extends:#,nbsp:.
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
+set expandtab
 """ }}}
 
 """ {{{ augroups
