@@ -4,10 +4,7 @@
 #
 
 git submodule init
-
-git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
-    cut -f 2 -d ' ' |
-    xargs git submodule update
+git submodule update
 
 # LanguageClient-neovim requires some more work
 if which cargo &> /dev/null; then
