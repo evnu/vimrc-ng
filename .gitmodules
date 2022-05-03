@@ -52,3 +52,6 @@
 [submodule "pack/evnu/start/vim-slime"]
 	path = pack/evnu/start/vim-slime
 	url = https://github.com/jpalardy/vim-slime
+[submodule "pack/evnu/start/gemini.vim"]
+	path = pack/evnu/start/gemini.vim
+	url = https://git.sr.ht/~torresjrjr/gemini.vim
