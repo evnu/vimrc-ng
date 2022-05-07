@@ -47,12 +47,6 @@ set expandtab
 """ }}}
 
 """ {{{ augroups
-augroup rust
-    au!
-
-    au BufWrite *.rs RustFmt
-augroup END
-
 augroup elixir
     au!
 
