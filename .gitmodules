@@ -55,3 +55,6 @@
 [submodule "pack/evnu/start/gemini.vim"]
 	path = pack/evnu/start/gemini.vim
 	url = https://git.sr.ht/~torresjrjr/gemini.vim
+[submodule "pack/evnu/start/typescript-vim"]
+	path = pack/evnu/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
