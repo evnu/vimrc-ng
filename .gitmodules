@@ -58,3 +58,6 @@
 [submodule "pack/evnu/start/typescript-vim"]
 	path = pack/evnu/start/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/evnu/start/vim-terraform"]
+	path = pack/evnu/start/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
