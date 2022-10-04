@@ -29,6 +29,7 @@ nnoremap <leader>dts :%s/\s\+$//g<cr>
 nnoremap <leader>rg :silent grep <cword> \| copen<cr>
 nnoremap <leader>a :ArgWrap<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
+nnoremap <leader>todo :execute 'silent Ggrep! TODO' | cw | redraw!
 
 " Clear the gutter
 nnoremap <leader>cg :sign unplace *<cr>
