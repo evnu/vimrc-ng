@@ -37,7 +37,7 @@ $ ln -s $PWD/ ~/.vim
 ### Neovim
 
 ```
-$ mkdir -p ~/.config/nvim
+$ mkdir -p ~/.config
 $ ln -s $PWD/ ~/.config/nvim
 ```
 
