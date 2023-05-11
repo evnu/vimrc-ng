@@ -33,6 +33,10 @@ nnoremap <leader>todo :execute 'silent Ggrep! TODO' | cw | redraw!
 
 " Clear the gutter
 nnoremap <leader>cg :sign unplace *<cr>
+
+" Insert todays date as RFC 3339
+nnoremap <leader>id :r !date --rfc-3339=date<cr>
+
 """ }}}
 
 """ {{{ Style
