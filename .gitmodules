@@ -61,3 +61,6 @@
 [submodule "pack/evnu/start/vim-terraform"]
 	path = pack/evnu/start/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "pack/evnu/start/editorconfig-vim"]
+	path = pack/evnu/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
