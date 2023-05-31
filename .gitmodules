@@ -64,3 +64,6 @@
 [submodule "pack/evnu/start/editorconfig-vim"]
 	path = pack/evnu/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "pack/evnu/start/vim-prisma"]
+	path = pack/evnu/start/vim-prisma
+	url = https://github.com/prisma/vim-prisma.git
