@@ -1,6 +1,6 @@
 # vimrc - next generation
 
-My next generation vimrc.
+My next generation vimrc. By now, this only works with NeoVim.
 
 ## Requirements
 
@@ -16,22 +16,12 @@ My next generation vimrc.
 * rust
 * `rust-analyzer` ([AUR](https://aur.archlinux.org/packages/rust-analyzer-bin))
 
-## C/C++
-
-* `clangd` for LanguageClient-neovim
-
 ## Installation
 
 First, initialize the submodules:
 
 ```
 $ ./update.sh
-```
-
-### Vim
-
-```
-$ ln -s $PWD/ ~/.vim
 ```
 
 ### Neovim
@@ -50,4 +40,4 @@ $ ./update.sh
 ## Plugin Handling
 
 Plugins are added as submodules to `pack/evnu/start/`. No extra plugin manager
-is used. This requires Vim 8.  See `:h packages` for more information.
+is used.
