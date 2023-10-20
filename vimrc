@@ -1,8 +1,10 @@
 " Plugins are added with :packadd, so we require a recent version of Vim
-if v:version < 800 && !has('nvim-0.3.7')
-    echoerr "Configuration requires at least Vim 8 or Neovim 0.3.7"
+if v:version < 800 && !has('nvim-0.9.2')
+    echoerr "Configuration requires at least Neovim 0.9.2"
     finish
 endif
+
+lua require('config')
 
 filetype plugin indent on
 syntax on
@@ -30,6 +32,7 @@ nnoremap <leader>rg :silent grep <cword> \| copen<cr>
 nnoremap <leader>a :ArgWrap<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
 nnoremap <leader>todo :execute 'silent Ggrep! TODO' | cw | redraw!
+nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
 
 " Clear the gutter
 nnoremap <leader>cg :sign unplace *<cr>
@@ -63,24 +66,10 @@ augroup END
 let g:vim_markdown_folding_disabled = 1
 """ }}}
 
-""" {{{ LanguageClient-neovim
-let g:LanguageClient_changeThrottle = 0.5
-let g:LanguageClient_useFloatingHover = 1
-
-let g:LanguageClient_serverCommands = {
-\ 'rust': ['rust-analyzer'],
-\ 'c': ['clangd'],
-\ 'cpp': ['clangd'],
-\ }
-
-nnoremap <leader>lm :call LanguageClient_contextMenu()<CR>
-""" }}}
-
 """ {{{ Define colors for highlighting matching braces
-
 " Avoid that it looks like the cursor jumped due to bad highlighting.
 " See https://stackoverflow.com/a/50087070/436853
-hi MatchParen ctermfg=208 ctermbg=bg
+hi MatchParen ctermfg=208 ctermbg=0
 """ }}}
 
 """ {{{ tagbar

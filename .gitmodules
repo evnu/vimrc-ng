@@ -10,9 +10,6 @@
 [submodule "bundle/vim-fugitive"]
 	path = pack/evnu/start/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/rust"]
-	path = pack/evnu/start/rust
-	url = https://github.com/rust-lang/rust.vim.git
 [submodule "bundle/vim-elixir"]
 	path = pack/evnu/start/vim-elixir
 	url = https://github.com/elixir-editors/vim-elixir.git
@@ -37,9 +34,6 @@
 [submodule "pack/evnu/start/linediff.vim"]
 	path = pack/evnu/start/linediff.vim
 	url = https://github.com/AndrewRadev/linediff.vim
-[submodule "pack/evnu/start/LanguageClient-neovim"]
-	path = pack/evnu/start/LanguageClient-neovim
-	url = https://github.com/autozimu/LanguageClient-neovim
 [submodule "pack/evnu/start/tagbar"]
 	path = pack/evnu/start/tagbar
 	url = https://github.com/majutsushi/tagbar.git
@@ -67,3 +61,6 @@
 [submodule "pack/evnu/start/vim-prisma"]
 	path = pack/evnu/start/vim-prisma
 	url = https://github.com/prisma/vim-prisma.git
+[submodule "pack/evnu/start/nvim-lspconfig"]
+	path = pack/evnu/start/nvim-lspconfig
+	url = git@github.com:neovim/nvim-lspconfig.git
