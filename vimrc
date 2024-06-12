@@ -69,7 +69,7 @@ let g:vim_markdown_folding_disabled = 1
 """ {{{ Define colors for highlighting matching braces
 " Avoid that it looks like the cursor jumped due to bad highlighting.
 " See https://stackoverflow.com/a/50087070/436853
-hi MatchParen ctermfg=208 ctermbg=0
+hi MatchParen cterm=bold ctermfg=208 ctermbg=12 gui=bold guifg=#fd971f guibg=#000000
 """ }}}
 
 """ {{{ tagbar
