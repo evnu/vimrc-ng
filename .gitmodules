@@ -63,4 +63,4 @@
 	url = https://github.com/prisma/vim-prisma.git
 [submodule "pack/evnu/start/nvim-lspconfig"]
 	path = pack/evnu/start/nvim-lspconfig
-	url = git@github.com:neovim/nvim-lspconfig.git
+	url = https://github.com/neovim/nvim-lspconfig.git
