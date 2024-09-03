@@ -6,6 +6,11 @@ endif
 
 lua require('config')
 
+" include a local vim configuration if it exists
+if filereadable(expand('~/.local.vimrc'))
+    source ~/.local.vimrc
+endif
+
 filetype plugin indent on
 syntax on
 set nocompatible
