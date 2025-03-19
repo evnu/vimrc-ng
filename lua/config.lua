@@ -1,7 +1,6 @@
 -- Default config taken from https://github.com/neovim/nvim-lspconfig
 -- Setup language servers.
 local lspconfig = require('lspconfig')
-lspconfig.pyright.setup {}
 lspconfig.tsserver.setup {}
 lspconfig.clangd.setup {}
 lspconfig.rust_analyzer.setup {
@@ -9,6 +8,24 @@ lspconfig.rust_analyzer.setup {
   settings = {
     ['rust-analyzer'] = {},
   },
+}
+lspconfig.pyright.setup {
+  settings = {
+    pyright = {
+      -- Using Ruff's import organizer
+      disableOrganizeImports = true,
+    },
+    python = {
+      analysis = {
+        -- Ignore all files for analysis to exclusively use Ruff for linting
+        ignore = { '*' },
+      },
+    },
+  },
+}
+lspconfig.ruff.setup {
+    cmd = { "ruff", "server" },
+    filetypes = { "python" },
 }
 
 
