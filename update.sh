@@ -4,7 +4,7 @@
 #
 
 git submodule init
-git submodule update
+git submodule update --recursive --remote
 
 vim +helptags pack/ +qall
 
