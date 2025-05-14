@@ -64,3 +64,6 @@
 [submodule "pack/evnu/start/nvim-lspconfig"]
 	path = pack/evnu/start/nvim-lspconfig
 	url = https://github.com/neovim/nvim-lspconfig.git
+[submodule "pack/evnu/start/vim-rhubarb"]
+	path = pack/evnu/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
