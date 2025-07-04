@@ -45,6 +45,10 @@ nnoremap <leader>cg :sign unplace *<cr>
 " Insert todays date as RFC 3339
 nnoremap <leader>id :r !date --rfc-3339=date<cr>
 
+" Insert current datetime with seconds resolution as RFC 3339
+nnoremap <leader>idt :r !date --rfc-3339=seconds<cr>
+
+
 """ }}}
 
 """ {{{ Style
