@@ -17,10 +17,10 @@ lspconfig.pyright.setup {
     },
   },
 }
-lspconfig.ruff.setup {
-    cmd = { "ruff", "server" },
-    filetypes = { "python" },
-}
+-- lspconfig.ruff.setup {
+--     cmd = { "ruff", "server" },
+--     filetypes = { "python" },
+-- }
 
 
 -- Global mappings.
