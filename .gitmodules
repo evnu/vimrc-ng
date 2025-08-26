@@ -68,5 +68,5 @@
 	path = pack/evnu/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
 [submodule "pack/evnu/uiua.vim"]
-	path = pack/evnu/uiua.vim
+	path = pack/evnu/start/uiua.vim
 	url = https://github.com/Apeiros-46B/uiua.vim.git
