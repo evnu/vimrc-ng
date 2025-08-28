@@ -1,27 +1,11 @@
 -- Default config taken from https://github.com/neovim/nvim-lspconfig
--- Setup language servers.
-local lspconfig = require('lspconfig')
-lspconfig.tsserver.setup {}
-lspconfig.clangd.setup {}
-lspconfig.rust_analyzer.setup {
-  -- Server-specific settings. See `:help lspconfig-setup`
-  settings = {
-    ['rust-analyzer'] = {},
-  },
-}
-lspconfig.pyright.setup {
-  settings = {
-    pyright = {
-      -- Using Ruff's import organizer
-      disableOrganizeImports = true,
-    },
-  },
-}
--- lspconfig.ruff.setup {
---     cmd = { "ruff", "server" },
---     filetypes = { "python" },
--- }
 
+-- Setup language servers.
+vim.lsp.enable('uiua')
+vim.lsp.enable('ts_ls')
+vim.lsp.enable('clangd')
+vim.lsp.enable('rust_analyzer')
+vim.lsp.enable('pyright')
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
