@@ -6,6 +6,7 @@ vim.lsp.enable('ts_ls')
 vim.lsp.enable('clangd')
 vim.lsp.enable('rust_analyzer')
 vim.lsp.enable('pyright')
+vim.lsp.enable('erlangls')
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
